@@ -10,9 +10,13 @@ RUN --mount=type=cache,target=/root/.npm \
 # Copy source
 COPY . .
 
-# Build args (optional, but kept for consistency with frontend)
+# Build args (mirrored from frontend for consistency)
 ARG VITE_API_URL
+ARG VITE_WS_URL
+ARG GOOGLE_API_KEY
 ENV VITE_API_URL=$VITE_API_URL
+ENV VITE_WS_URL=$VITE_WS_URL
+ENV GOOGLE_API_KEY=$GOOGLE_API_KEY
 
 # Build
 RUN npm run build

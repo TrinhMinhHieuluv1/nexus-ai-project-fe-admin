@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=/api
+        - VITE_WS_URL=/api
+        - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    container_name: nexusai-admin
+    env_file:
+      - .env
+    ports:
+      # Map to port 3001 for Admin module
+      - "3001:80"
+    networks:
+      - nexusai-network
+    restart: always
+
+networks:
+  nexusai-network:
+    external: true
