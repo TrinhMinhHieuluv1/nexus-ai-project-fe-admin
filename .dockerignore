@@ -6,6 +6,5 @@ build
 .dockerignore
 docker-compose.yml
 Dockerfile
-nginx.conf
 npm-debug.log
 README.md
