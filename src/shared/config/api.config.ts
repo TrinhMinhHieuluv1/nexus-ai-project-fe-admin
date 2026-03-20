@@ -73,6 +73,14 @@ export const apiConfig = {
       },
     },
 
+    // Coin Package Management
+    coinPackages: {
+      list: '/coin-packages',
+      get: (id: string) => `/coin-packages/${id}`,
+      create: '/coin-packages',
+      delete: (id: string) => `/coin-packages/${id}`,
+    },
+
     // Transaction Management
     transactions: {
       list: '/admin/transactions',

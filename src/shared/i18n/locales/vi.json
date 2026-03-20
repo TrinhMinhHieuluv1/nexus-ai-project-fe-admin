@@ -39,6 +39,7 @@
   "nav": {
     "dashboard": "Bảng điều khiển",
     "users": "Người dùng",
+    "coinPackages": "Gói xu",
     "subscriptions": "Gói đăng ký",
     "transactions": "Giao dịch",
     "settings": "Cài đặt"
@@ -124,6 +125,33 @@
     "deleteSuccess": "Vô hiệu hóa gói thành công",
     "createSuccess": "Tạo gói thành công",
     "updateSuccess": "Cập nhật gói thành công"
+  },
+  "coinPackages": {
+    "title": "Quản lý gói xu",
+    "packageList": "Danh sách gói xu",
+    "createPackage": "Tạo gói xu mới",
+    "createPackageDescription": "Tạo gói xu để người dùng nạp và sử dụng",
+    "packageInformation": "Thông tin gói xu",
+    "packageId": "Mã gói",
+    "packageIdHint": "Định danh duy nhất (ví dụ: pack_10k)",
+    "packageName": "Tên gói",
+    "price": "Giá",
+    "baseCoins": "Xu cơ bản",
+    "bonusCoins": "Xu thưởng",
+    "totalCoins": "Tổng xu nhận được",
+    "badgeColor": "Màu nhãn",
+    "displayOrder": "Thứ tự hiển thị",
+    "isPopular": "Gói phổ biến",
+    "popular": "Phổ biến",
+    "popularDescription": "Hiển thị nhãn gợi ý cho gói này",
+    "showInactive": "Hiển thị cả gói đã vô hiệu hóa",
+    "idRequired": "Mã gói không được để trống",
+    "nameRequired": "Tên gói không được để trống",
+    "priceCoinsRequired": "Giá và số xu cơ bản phải lớn hơn 0",
+    "confirmDelete": "Bạn có chắc muốn vô hiệu hóa gói '{{name}}'?",
+    "confirmCreate": "Tạo gói xu '{{name}}'?",
+    "deleteSuccess": "Vô hiệu hóa gói xu thành công",
+    "createSuccess": "Tạo gói xu thành công"
   },
   "transactions": {
     "title": "Quản lý giao dịch",

@@ -6,8 +6,8 @@ import { Dashboard } from '@/modules/dashboard/ui/pages/Dashboard';
 import { UserListPage } from '@/modules/users/ui/pages/UserListPage';
 import { UserDetailPage } from '@/modules/users/ui/pages/UserDetailPage';
 import { UserFormPage } from '@/modules/users/ui/pages/UserFormPage';
-import { PlanListPage } from '@/modules/subscriptions/ui/pages/PlanListPage';
-import { PlanFormPage } from '@/modules/subscriptions/ui/pages/PlanFormPage';
+import { PackageListPage } from '@/modules/coin_packages/ui/pages/PackageListPage';
+import { PackageFormPage } from '@/modules/coin_packages/ui/pages/PackageFormPage';
 import { TransactionListPage } from '@/modules/transactions/ui/pages/TransactionListPage';
 import { TransactionDetailPage } from '@/modules/transactions/ui/pages/TransactionDetailPage';
 import { Toaster } from 'sonner';
@@ -50,10 +50,9 @@ export default function App() {
                 <Route path="/users/:id" element={<UserDetailPage />} />
                 <Route path="/users/:id/edit" element={<UserFormPage />} />
 
-                {/* Subscription Plan Management */}
-                <Route path="/subscriptions" element={<PlanListPage />} />
-                <Route path="/subscriptions/new" element={<PlanFormPage />} />
-                <Route path="/subscriptions/:id/edit" element={<PlanFormPage />} />
+                {/* Coin Package Management */}
+                <Route path="/coin-packages" element={<PackageListPage />} />
+                <Route path="/coin-packages/new" element={<PackageFormPage />} />
 
                 {/* Transaction Management */}
                 <Route path="/transactions" element={<TransactionListPage />} />

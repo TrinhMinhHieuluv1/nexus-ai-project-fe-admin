@@ -39,6 +39,7 @@
   "nav": {
     "dashboard": "Dashboard",
     "users": "Users",
+    "coinPackages": "Coin Packages",
     "subscriptions": "Subscriptions",
     "transactions": "Transactions",
     "settings": "Settings"
@@ -124,6 +125,33 @@
     "deleteSuccess": "Plan deactivated successfully",
     "createSuccess": "Plan created successfully",
     "updateSuccess": "Plan updated successfully"
+  },
+  "coinPackages": {
+    "title": "Coin Package Management",
+    "packageList": "Coin Package List",
+    "createPackage": "Create Coin Package",
+    "createPackageDescription": "Create a coin package for user top-up",
+    "packageInformation": "Coin Package Information",
+    "packageId": "Package ID",
+    "packageIdHint": "Unique identifier (example: pack_10k)",
+    "packageName": "Package Name",
+    "price": "Price",
+    "baseCoins": "Base Coins",
+    "bonusCoins": "Bonus Coins",
+    "totalCoins": "Total Coins",
+    "badgeColor": "Badge Color",
+    "displayOrder": "Display Order",
+    "isPopular": "Popular Package",
+    "popular": "Popular",
+    "popularDescription": "Show recommendation badge for this package",
+    "showInactive": "Show inactive packages",
+    "idRequired": "Package ID is required",
+    "nameRequired": "Package name is required",
+    "priceCoinsRequired": "Price and base coins must be greater than 0",
+    "confirmDelete": "Are you sure you want to deactivate package '{{name}}'?",
+    "confirmCreate": "Create coin package '{{name}}'?",
+    "deleteSuccess": "Coin package deactivated successfully",
+    "createSuccess": "Coin package created successfully"
   },
   "transactions": {
     "title": "Transaction Management",

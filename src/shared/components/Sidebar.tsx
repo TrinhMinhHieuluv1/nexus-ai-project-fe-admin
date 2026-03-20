@@ -21,7 +21,7 @@ export function Sidebar() {
   const navItems = [
     { id: 'dashboard', label: t('nav.dashboard'), icon: LayoutDashboard, path: '/dashboard' },
     { id: 'users', label: t('nav.users'), icon: Users, path: '/users' },
-    { id: 'subscriptions', label: t('nav.subscriptions'), icon: CreditCard, path: '/subscriptions' },
+    { id: 'coinPackages', label: t('nav.coinPackages'), icon: CreditCard, path: '/coin-packages' },
     { id: 'transactions', label: t('nav.transactions'), icon: Receipt, path: '/transactions' },
   ];
 
